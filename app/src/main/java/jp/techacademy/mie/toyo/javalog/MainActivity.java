@@ -6,7 +6,7 @@ import android.util.Log;
 import jp.techacademy.toyo.mie.human.R;
 
 
-abstract public class MainActivity extends AppCompatActivity {
+ public class MainActivity extends AppCompatActivity {
 
     private String hobby;
 
