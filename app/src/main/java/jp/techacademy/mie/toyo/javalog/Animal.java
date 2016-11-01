@@ -11,7 +11,7 @@ abstract class Animal{
     int age;
 
     abstract public void say();
-    public abstract void move();
+    public abstract void think();
 
 }
 

@@ -2,8 +2,7 @@ package jp.techacademy.mie.toyo.javalog;
 
 import android.util.Log;
 
-
-   abstract class Human extends Animal {
+class Human extends Animal implements Thinkable {
 
     static String to_jp = "人";
     private final String hobby;
@@ -22,7 +21,6 @@ import android.util.Log;
     public void say() {
         Log.d("javatest", "私の名前は"+ this.name + "です" + "私の年齢は" +  this.age + "歳です");
     }
-
 
     public void think() {
         Log.d("javatest", "私は" + this.hobby + "について考える");
